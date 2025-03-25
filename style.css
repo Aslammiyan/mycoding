@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+.cart-container {
+    position: relative;
+    width: 100%;
+    height: 488px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 15px;
+    gap: 10px;
+}
+.prev {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50;
+    left: 0;
+    height: 50px;
+    width: 40px;
+    background-color: transparent;
+    cursor: pointer;
+}
+.prev i{
+    font-size: 35px;
+    color: #404553;
+}
+.next {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50;
+    right: 0;
+    height: 50px;
+    width: 40px;
+    background-color: transparent;
+    cursor: pointer;
+}
+.next i{
+    font-size: 35px;
+    color: #404553;
+}
+.cart {
+    height: 430px;
+    width: 220px;
+    padding: 5px;
+    border: 0.1px solid #787d8a;
+    border-radius: 10px;
+}
+.cart-wish {
+    display: flex;
+    justify-content: space-between;
+    height: 32px;
+    width: 100%;
+    background-color: #f6f6f7;
+    padding: 2px 4px;
+    border-radius: 8px 8px 0 0;
+}
+.cart-wish-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    width: 87px;
+    background-color: #404553;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 800;
+    border-radius: 10px;
+    padding: 2px 8px;
+}
+.cart-wish-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 28px;
+    height: 28px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+}
+.cart-wish-right i{
+    font-size: 18px;
+    color: #404553;
+}
+.cart-img {
+    height: 180px;
+    width: 100%;
+    background-color: #f6f6f7;
+    overflow: hidden;
+}
+.cart-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.rating-contain {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 52px;
+    widht: 100%;
+    background-color: #f6f6f7;
+    padding: 8px;
+
+}
+.cart-rate {
+    display: flex;
+    align-items: center;
+    height: 21px;
+    width: 50px;
+    background-color: #ffffff;
+    color: #404553;
+    border-radius: 10px;
+    padding: 5px;
+}
+.cart-rate i{
+    font-size: 10px;
+    color: #82ae04;
+    margin-left: 4px;
+}
+
+.cart-add-cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    background-color: #ffffff;
+    color: #404553;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+}
+.cart-button {
+    display: flex;
+    justify-content: center;
+    background-color: #f6f6f7;
+    height: 16px;
+    width: 100%;
+    padding: 4px 0;
+    gap: 8px;
+    border-radius: 0 0 10px 10px;
+}
+.prevDots {
+    height: 5px;
+    width: 5px;
+    border: 0.5px solid #404553;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#Previmg:hover {
+    background-color: #404553;
+}
+.ProductDeteils {
+    height: 150px;
+    width: 100%;
+}
+.ProductDeteils h2{
+    font-size: 14px;
+    font-weight: 600;
+    color: #404553;
+    margin: 10px 0;
+}
+.PriceDeteils {
+    display: flex;
+    height: 14px;
+    width: 100%;
+}
+.price-amount {
+    display: flex;
+    align-items: center;
+    height: auto;
+    width: auto;
+    padding: 0 5px;
+}
+.price-amount i{
+    color: #404553;
+    font-size: 15px;
+    margin-right: 3px;
+}
+.price-amount span{
+    color: #101010;
+    font-size: 15px;
+}
+.priceDiscount {
+    display: flex;
+}
+.priceDiscount p{
+    color: #7E859B;
+    font-size: 12px;
+    margin: 0 3px 0 0;
+    text-decoration: line-through;
+}
+.priceDiscount span{
+    font-size: 13px;
+    font-weight: 900;
+    color: #38ae04;
+}
+.opportunity {
+    display: flex;
+    margin: 10px 0;
+}
+.opportunity i{
+    color: #3270ed;
+    font-size: 12px;
+    margin-right: 5px;
+}
+.opportunity p{
+    font-size: 12px;
+    font-weight: 600;
+    color: #404553;
+}
